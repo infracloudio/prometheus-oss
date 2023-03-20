@@ -128,8 +128,8 @@ type Meta struct {
 	// when Series() was called and was overlapping.
 	// Series() and Chunk() method responses should be consistent for the same
 	// query even if new data is added in between the calls.
-	OOOLastRef                     ChunkRef
-	OOOLastMinTime, OOOLastMaxTime int64
+	// OOOLastRef                     ChunkRef
+	// OOOLastMinTime, OOOLastMaxTime int64
 }
 
 // Iterator iterates over the chunks of a single time series.
